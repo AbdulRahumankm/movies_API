@@ -2,7 +2,7 @@ movies_api
 
 Provide a movie api for react.js app.
 
-### important Commands ###
+### important Commands
 
 1. `npm install`
 2. `npm run server `
@@ -10,3 +10,9 @@ Provide a movie api for react.js app.
 4. `git add .`
 5. `git commit -m "your MSG"`
 6. `git push -u origin main `
+
+
+### Database option
+
+1. SQL - (MySQL, MariaDB, PostgresSQL)
+2. NoSQL- (MongoDB)
