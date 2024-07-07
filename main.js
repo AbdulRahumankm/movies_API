@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended : true}));
 //Connect DB
 connectDB();
 
-//main body render
+
 app.get("/", (req, res) => {
   res.json({ msg: "Hello World!" });
 });
