@@ -1,7 +1,12 @@
 import Movie from "../models/movie.model.js";
 
-export const movieIndex = (req, res) => {
-  res.send("Get all movie lists");
+export const movieIndex = async (req, res) => {
+  try {
+    const movies = await Movie.find();
+    res.json(movies);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 };
 
 // Create a movie
