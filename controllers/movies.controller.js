@@ -1,5 +1,6 @@
 import Movie from "../models/movie.model.js";
 
+
 //get method
 export const movieIndex = async (req, res) => {
   try {
